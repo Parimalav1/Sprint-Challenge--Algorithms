@@ -16,7 +16,7 @@ sum = 0
         sum += 1
 ```
 The runtime for a for loop is O(n), for a while loop is O(n), for  (j *= 2) is O(1) and for (sum += 1) is O(1).
-O(n) * O(n) * O(1) * O(1) = O(n ** 2)
+O(n) * O(log(n)) * O(1) * O(1) = O(nlog(n))
 
 
 c)The runtime is O(n) because the function only includes one recursive call.
